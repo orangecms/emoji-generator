@@ -1,0 +1,30 @@
+{
+  "name": "emoji-generator",
+  "private": true,
+  "scripts": {},
+  "dependencies": {},
+  "version": "1.0.0",
+  "description": "Emoji Generator 🐢 ",
+  "main": "src/main.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orangecms/emoji-generator"
+  },
+  "keywords": [
+    "Emoji",
+    "Generator",
+    "Cat",
+    "Cats",
+    "Kitty",
+    "Kitties",
+    "Turtle",
+    "Turtles"
+  ],
+  "author": "Daniel Maslowski <info@orangecms.org> (http://orangecms.org/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/orangecms/emoji-generator/issues"
+  },
+  "homepage": "https://github.com/orangecms/emoji-generator"
+}
