@@ -1,4 +1,4 @@
-export default function *emoji (min, max) {
+function *emoji (min, max) {
   let current = min;
   while (true) {
     yield String.fromCodePoint(current);
@@ -7,5 +7,8 @@ export default function *emoji (min, max) {
   }
 }
 
-export const kittyEmoji = emoji(0x1F638, 0x1F640);
-export const turtleEmoji = emoji(128034, 128034);
+module.exports = {
+  default: emoji,
+  kittyEmoji: emoji(0x1F638, 0x1F640),
+  turtleEmoji: emoji(128034, 128034)
+};

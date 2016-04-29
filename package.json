@@ -1,16 +1,19 @@
 {
   "name": "emoji-generator",
-  "private": true,
-  "scripts": {},
-  "dependencies": {},
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Emoji Generator 🐢 ",
   "main": "src/main.js",
-  "devDependencies": {},
+  "dependencies": {
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/orangecms/emoji-generator"
   },
+  "files": [
+    "README.md",
+    "src/main.js",
+    "LICENSE"
+  ],
   "keywords": [
     "Emoji",
     "Generator",
