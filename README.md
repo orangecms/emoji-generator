@@ -1,6 +1,6 @@
 ## About
 This is an ES2015 Generator to provide you with the power of emoji.
-It accepts two parameters which they will by created from using the `String.fromCodePoint()` function.
+It accepts two parameters which they will be created from using the `String.fromCodePoint()` function.
 Two sets are provided by default: `kittyEmoji` and `turtleEmoji`.
 
 ## Installation
@@ -40,8 +40,8 @@ In a REPL, you cannot use let in a for loop, so instead:
 ```javascript
 const emoji = require('emoji-generator').default;
 let myEmoji = emoji(128030, 128034);
-for (var i=0; i<10; i++) { console.log(myGenerator.next().value); }
+for (var i=0; i<10; i++) { console.log(myEmoji.next().value); }
 ```
 
 ## Resources
-You will probably need a list of [emoji codes](http://emoji.codes/). 🐞
+You will probably need a list of [emoji codes](http://unicode.org/emoji/charts/full-emoji-list.html). 🐞
