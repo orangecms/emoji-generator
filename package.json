@@ -1,9 +1,12 @@
 {
   "name": "emoji-generator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Emoji Generator 🐢 ",
-  "main": "src/main.js",
+  "main": "main.js",
   "dependencies": {
+    "babel-plugin-add-module-exports": "^0.1.4",
+    "babel-plugin-transform-es2015-modules-umd": "^6.6.5",
+    "babel-register": "^6.7.2"
   },
   "repository": {
     "type": "git",
@@ -11,6 +14,7 @@
   },
   "files": [
     "README.md",
+    "main.js",
     "src/main.js",
     "LICENSE"
   ],
@@ -29,5 +33,11 @@
   "bugs": {
     "url": "https://github.com/orangecms/emoji-generator/issues"
   },
-  "homepage": "https://github.com/orangecms/emoji-generator"
+  "homepage": "https://github.com/orangecms/emoji-generator",
+  "babel": {
+    "plugins": [
+      "add-module-exports",
+      "transform-es2015-modules-umd"
+    ]
+  }
 }
