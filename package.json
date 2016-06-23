@@ -2,20 +2,31 @@
   "name": "emoji-generator",
   "version": "1.0.3",
   "description": "Emoji Generator 🐢 ",
-  "main": "main.js",
-  "dependencies": {
-    "babel-plugin-add-module-exports": "^0.1.4",
-    "babel-plugin-transform-es2015-modules-umd": "^6.6.5",
-    "babel-register": "^6.7.2"
+  "main": "build/index.js",
+  "scripts": {
+    "lint": "eslint src/** spec/**/*.js",
+    "build": "babel src --out-dir build",
+    "test": "jasmine"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-core": "^6.9.1",
+    "babel-plugin-transform-regenerator": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-1": "^6.5.0",
+    "babel-regenerator-runtime": "^6.5.0",
+    "eslint": "^2.12.0",
+    "eslint-config-es2015": "^1.1.0",
+    "jasmine": "^2.4.1",
+    "jasmine-core": "^2.4.1",
+    "jasmine-expect": "^2.0.2"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/orangecms/emoji-generator"
   },
   "files": [
-    "README.md",
-    "main.js",
-    "src/main.js",
+    "build",
     "LICENSE"
   ],
   "keywords": [
@@ -33,11 +44,5 @@
   "bugs": {
     "url": "https://github.com/orangecms/emoji-generator/issues"
   },
-  "homepage": "https://github.com/orangecms/emoji-generator",
-  "babel": {
-    "plugins": [
-      "add-module-exports",
-      "transform-es2015-modules-umd"
-    ]
-  }
+  "homepage": "https://github.com/orangecms/emoji-generator"
 }

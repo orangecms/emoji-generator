@@ -1,0 +1,16 @@
+{
+  "extends": "es2015",
+  "root": true,
+  "env": {
+    "node": true,
+    "jasmine": true
+  },
+  "rules": {
+    "id-length": 0,
+    "new-cap": 0,
+    "no-console": 0
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  }
+}
