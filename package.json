@@ -1,6 +1,6 @@
 {
   "name": "emoji-generator",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Emoji Generator 🐢 ",
   "main": "build/index.js",
   "scripts": {
