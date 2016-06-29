@@ -1,5 +1,5 @@
 import assert from 'assert';
-import { turtleEmoji } from '../';
+import { turtleEmoji } from '../src/index';
 
 describe('I like turtles', () => {
   it('should give me a turtle emoji', function(done) {

@@ -1,5 +1,5 @@
 import assert from 'assert';
-import { catfaceEmoji, kittyEmoji } from '../';
+import { catfaceEmoji, kittyEmoji } from '../src/index';
 
 const catfaces = [ '😸', '😹', '😺', '😻', '😼', '😽', '😾', '😿', '🙀' ];
 

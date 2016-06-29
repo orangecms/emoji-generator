@@ -1,4 +1,4 @@
-import { noEvilEmoji } from '../';
+import { noEvilEmoji } from '../src/index';
 
 const noEvil = [ '🙊', '🙋', '🙌' ];
 
