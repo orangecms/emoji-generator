@@ -1,9 +1,9 @@
 import { noEvilEmoji } from '../src/index';
 
-const noEvil = [ '🙊', '🙋', '🙌' ];
+const noEvil = [ '🙈', '🙉', '🙊' ];
 
 describe('Three wise monkeys', () => {
-  it('should give me a see no evil emoji', function(done) {
+  it('should give me a speak no evil emoji', function(done) {
     let emoji = noEvilEmoji.next().value;
     expect(emoji).toEqual(noEvil[0]);
     done();
@@ -15,7 +15,7 @@ describe('Three wise monkeys', () => {
     done();
   });
 
-  it('should give a speak no evil emoji', function(done) {
+  it('should give a see no evil emoji', function(done) {
     let emoji = noEvilEmoji.next().value;
     expect(emoji).toEqual(noEvil[2]);
     done();

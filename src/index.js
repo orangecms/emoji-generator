@@ -12,4 +12,4 @@ export default function *emoji (min, max) {
 export const kittyEmoji = emoji(0x1F638, 0x1F640);
 export const catfaceEmoji = kittyEmoji;
 export const turtleEmoji = emoji(128034, 128034);
-export const noEvilEmoji = emoji(128586, 128588);
+export const noEvilEmoji = emoji(128584, 128586);
