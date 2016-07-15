@@ -1,12 +1,13 @@
 {
   "name": "emoji-generator",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Emoji Generator 🐢 ",
   "main": "build/index.js",
   "scripts": {
     "lint": "eslint src/** spec/**/*.js",
     "build": "babel src --out-dir build",
-    "test": "jasmine"
+    "test": "jasmine",
+    "prepublish": "npm test; npm run build"
   },
   "devDependencies": {
     "babel-cli": "^6.10.1",
